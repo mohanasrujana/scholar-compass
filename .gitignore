@@ -1,0 +1,50 @@
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+
+# JavaScript dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
+.vite/
+
+# Secrets and machine-specific configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Local application databases and SQLite sidecar files
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+instance/
+
+# Private source documents, profiles, and outreach records
+# Keep private material in these folders; use redacted fixtures elsewhere.
+private/
+local-data/
+
+# Logs and operating-system files
+*.log
+.DS_Store
+Thumbs.db
